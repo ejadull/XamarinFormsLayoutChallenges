@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Android", "SocialNetwork\SocialNetwork.Android\SocialNetwork.Android.csproj", "{AF9BF116-4097-4B1B-8A4F-9B471A12207A}"
 EndProject
@@ -196,6 +196,7 @@ Global
 		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.AppStore|x86.Build.0 = Release|x86
 		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.AppStore|x86.Deploy.0 = Release|x86
 		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.Debug|ARM.ActiveCfg = Debug|ARM
 		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.Debug|ARM.Build.0 = Debug|ARM
 		{7A750997-0E05-42D5-B450-BD8C02B60A1D}.Debug|ARM.Deploy.0 = Debug|ARM
