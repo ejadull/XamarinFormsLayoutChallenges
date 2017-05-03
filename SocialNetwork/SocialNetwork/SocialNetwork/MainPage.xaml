@@ -5,58 +5,65 @@
     <ScrollView>
         <Grid RowSpacing="0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <!-- header background -->
-            <Image Source="HeaderBackground.png" Aspect="AspectFill"></Image>
-            <Image Source="CurvedMask.png" Aspect="Fill" VerticalOptions="End"></Image>
+            <Image Source="HeaderBackground.png" Aspect="AspectFill"/>
+            <Image Source="CurvedMask.png" Aspect="Fill"
+                   VerticalOptions="End"/>
 
             <!-- profile name -->
             <StackLayout Grid.Row="1" Padding="0,50,0,0">
-                <Label Text="Jesus Angulo" Style="{StaticResource ProfileNameLabel}"></Label>
-                <Label Text="Clean Code Lover" Style="{StaticResource ProfileTagLabel}"></Label>
+                <Label Text="Jesus Angulo"
+                       Style="{StaticResource ProfileNameLabel}"/>
+                <Label Text="Clean Code Lover"
+                       Style="{StaticResource ProfileTagLabel}"/>
             </StackLayout>
 
             <!-- social stats -->
             <Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
+
                 <StackLayout Grid.Column="0">
-                    <Label Text="450" Style="{StaticResource StatsNumberLabel}"></Label>
-                    <Label Text="Likes" Style="{StaticResource StatsCaptionLabel}"></Label>
+                    <Label Text="450" Style="{StaticResource StatsNumberLabel}"/>
+                    <Label Text="Likes" Style="{StaticResource StatsCaptionLabel}"/>
                 </StackLayout>
 
                 <StackLayout Grid.Column="1">
-                    <Label Text="486" Style="{StaticResource StatsNumberLabel}"></Label>
-                    <Label Text="Following" Style="{StaticResource StatsCaptionLabel}"></Label>
+                    <Label Text="486" Style="{StaticResource StatsNumberLabel}"/>
+                    <Label Text="Following" Style="{StaticResource StatsCaptionLabel}"/>
                 </StackLayout>
 
                 <StackLayout Grid.Column="2">
-                    <Label Text="687" Style="{StaticResource StatsNumberLabel}"></Label>
-                    <Label Text="Followers" Style="{StaticResource StatsCaptionLabel}"></Label>
+                    <Label Text="687" Style="{StaticResource StatsNumberLabel}"/>
+                    <Label Text="Followers" Style="{StaticResource StatsCaptionLabel}"/>
                 </StackLayout>
             </Grid>
-
             <!-- profile description -->
-            <Label Text="Author on SomosTechies.com, Software architect, Certified Xamarin Mobile Developer, UX enthusiast, mobile addicted and clean code lover" Grid.Row="3"                Style="{StaticResource MainBodyLabel}"                Margin="20,0"></Label>
+            <Label Text="Author on SomosTechies.com, Software architect, Certified Xamarin Mobile Developer, UX enthusiast, mobile addicted and clean code lover"
+                Grid.Row="3"
+                Style="{StaticResource MainBodyLabel}"
+                   Margin="20,0"/>
 
             <!-- follow button -->
-            <Button Text="Follow" Grid.Row="4" Style="{StaticResource FollowButton}"></Button>
-
+            <Button Text="Follow"
+                Style="{StaticResource FollowButton}"
+                Grid.Row="4"
+                Margin="20,0"/>
             <!-- profile image -->
-            <Image Source="ProfilePic.png" Grid.Row="0"                  
-               HorizontalOptions="Center"                  
-               HeightRequest="100"                  
-               WidthRequest="100" VerticalOptions="End"                  
-               TranslationY="50"></Image>
+            <Image Source="ProfilePic.png" 
+                   VerticalOptions="End" HorizontalOptions="Center"
+                   HeightRequest="100" WidthRequest="100"
+                   TranslationY="50"/>
         </Grid>
     </ScrollView>
 </ContentPage>

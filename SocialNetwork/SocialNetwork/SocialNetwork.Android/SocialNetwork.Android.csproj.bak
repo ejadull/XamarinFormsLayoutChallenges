@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -121,20 +121,8 @@
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\ProfilePic.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\ProfilePic.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\ProfilePic.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\ProfilePic.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\ProfilePic.png" />
     <AndroidResource Include="Resources\drawable\CurvedMask.png" />
     <AndroidResource Include="Resources\drawable\HeaderBackground.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\CurvedMask.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\HeaderBackground.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\CurvedMask.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\HeaderBackground.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\CurvedMask.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\HeaderBackground.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\CurvedMask.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\HeaderBackground.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -149,6 +137,9 @@
       <Project>{83BBE914-AB71-4B3A-AE98-CC334FE900AC}</Project>
       <Name>SocialNetwork</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
