@@ -4,5 +4,6 @@ Xamarin.Forms is a crazy productive framework for build cross platform apps.  Ho
 
 In this repo, I'm going to recreate some nice looking UI's that I find around the web (places like [Dribbble](http://dribbble.com)) with Xamarin.Forms.
 
+> Thank you to Kym Phillpotts for this great demostration project using Xamarin.Forms 
 
 
